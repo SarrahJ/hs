@@ -323,6 +323,38 @@ div.hr {
     transition: all 0.3s ease-in-out;
 	width: 100%;
 }
+.contact-btn {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 13px 38px;
+	border: 1px solid #c11d1d;
+	border-radius: 9px;
+	background: #ff3636;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff3636), to(#c11d1d));
+	background: -moz-linear-gradient(top, #ff3636, #c11d1d);
+	background: linear-gradient(to bottom, #ff3636, #c11d1d);
+	text-shadow: #721111 1px 1px 1px;
+	font: normal normal normal 21px arial;
+	color: #ffffff;
+	text-decoration: none;
+}
+.contact-btn:hover,
+.contact-btn {
+	border: 1px solid #e32222;
+	background: #ff4141;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff4141), to(#e82323));
+	background: -moz-linear-gradient(top, #ff4141, #e82323);
+	background: linear-gradient(to bottom, #ff4141, #e82323);
+	color: #ffffff;
+	text-decoration: none;
+  }
+.contact-btn:active {
+	background: #c11d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c11d1d), to(#c11d1d));
+	background: -moz-linear-gradient(top, #c11d1d, #c11d1d);
+	background: linear-gradient(to bottom, #c11d1d, #c11d1d);
+}
 .btn {
     border: 1px solid transparent;
     -webkit-border-radius: 7px;
